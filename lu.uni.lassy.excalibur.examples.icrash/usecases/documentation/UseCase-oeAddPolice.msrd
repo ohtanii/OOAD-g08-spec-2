@@ -1,0 +1,29 @@
+/*
+@author ???
+@date Wed Nov 30 00:06:56 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeAddPolice hidden
+@description "goal is to add a new police in the system's post state and environment's post state.
+"
+@parameter icrash.usecases.subfunctions.oeAddPolice.AdtPoliceID ""
+@parameter icrash.usecases.subfunctions.oeAddPolice.AdtLogin ""
+@parameter icrash.usecases.subfunctions.oeAddPolice.AdtPassword ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

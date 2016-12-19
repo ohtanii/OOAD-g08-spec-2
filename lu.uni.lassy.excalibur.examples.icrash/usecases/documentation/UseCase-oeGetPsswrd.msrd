@@ -1,0 +1,23 @@
+/*
+@author ???
+@date Wed Dec 14 15:24:26 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeGetPsswrd
+@description "goal is to request the password."
+@parameter icrash.usecases.subfunctions.oeGetPsswrd.AdtPhoneNumber ""
+@endParameters
+@protocolCondition
+"The system is on. A user is not logged yet.
+"
+@endProtocolConditions
+@preCondition
+" none
+"
+@endPreConditions
+@postCondition
+"a message \msrcode{ieMessage(AMessage)} is sent to the \msrcode{actAuthenticated} to inform him that his password has been sent.
+"
+@endPostConditions
+

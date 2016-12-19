@@ -1,0 +1,8 @@
+/*
+@author ???
+@date Mon Nov 14 16:41:41 MSK 2016
+*/
+
+
+@@Primary Type Association icrash.concepts.primarytypes.associations.assctCrisisctPolice
+@description "at any point in time we need to know if a police is handling existing crisis or not."

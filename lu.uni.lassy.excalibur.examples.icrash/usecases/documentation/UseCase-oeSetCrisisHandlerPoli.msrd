@@ -1,0 +1,26 @@
+/*
+@author ???
+@date Wed Dec 14 15:24:25 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeSetCrisisHandlerPoli
+@description "goal is to declare himself as been the handler of a crisis having the specified id."
+@parameter icrash.usecases.subfunctions.oeSetCrisisHandlerPoli.AdtCrisisID ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

@@ -1,0 +1,14 @@
+/*
+@author ???
+@date Mon Dec 19 16:40:26 MSK 2016
+*/
+
+
+@@view uc-oeSetCrisisHandlerPoli
+@model Use-Case icrash.usecases.subfunctions.oeSetCrisisHandlerPoli 
+@description "shows the use case diagram for the oeSetCrisisHandlerPoli subfunction use case
+"
+@caption 
+"oeSetCrisisHandlerPoli subfunction use case
+"
+@scale 0.75

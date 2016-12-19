@@ -1,0 +1,10 @@
+/*
+@author ???
+@date Mon Dec 19 16:38:30 MSK 2016
+*/
+
+
+@@view uc-oeCloseCrisisPoli inappendix
+@model Use-Case icrash.usecases.subfunctions.oeCloseCrisisPoli 
+@description "shows the use case diagram for the oeCloseCrisisPoli subfunction use case"
+@caption "oeCloseCrisisPoli subfunction use case"

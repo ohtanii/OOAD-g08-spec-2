@@ -1,0 +1,42 @@
+package icrash.usecases.ugManageCrisis {
+
+	import icrash.environment
+	import icrash.usecases.subfunctions
+
+	Use Case Model {
+		
+		use case system usergoal ugManageCrisis() {
+			actor actCoordinator[primary, active]
+			actor actPolice[primary, active]
+
+			reuse oeValidateAlert[0..*]
+			reuse oeSetCrisisStatus[0..*]
+			reuse oeSetCrisisHandler[0..*]
+			reuse oeReportOnCrisis[0..*]
+			reuse oeCloseCrisis[0..*]
+			reuse oeInvalidateAlert[0..*]
+			reuse oeSetCrisisStatusPoli[0..*]
+			reuse oeSetCrisisHandlerPoli[0..*]
+			reuse oeReportOnCrisisPoli[0..*]
+			reuse oeCloseCrisisPoli[0..*]
+
+			step a: actCoordinator executes oeValidateAlert
+			step b: actCoordinator executes oeSetCrisisStatus
+			step h: actCoordinator executes oeSetCrisisType
+			step c: actCoordinator executes oeSetCrisisHandler
+			step d: actCoordinator executes oeReportOnCrisis
+			step f: actCoordinator executes oeCloseCrisis
+			step g: actCoordinator executes oeInvalidateAlert
+			
+			step k: actPolice executes oeSetCrisisStatusPoli
+			step l: actPolice executes oeSetCrisisHandlerPoli
+			step m: actPolice executes oeReportOnCrisisPoli
+			step n: actPolice executes oeCloseCrisisPoli
+			
+			ordering constraint "managing a crisis is doing one of the indicated use cases."
+			
+			
+		}
+
+	}
+}

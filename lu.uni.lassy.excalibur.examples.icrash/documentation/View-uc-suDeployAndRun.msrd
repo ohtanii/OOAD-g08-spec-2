@@ -1,0 +1,12 @@
+/*
+@author ???
+@date Fri Dec 09 17:49:30 MSK 2016
+*/
+
+
+@@view uc-suDeployAndRun
+@model Use-Case icrash.usecases.suDeployAndRun.suDeployAndRun
+@description "shows the use case diagram for the suDeployAndRun summary use case"
+@caption ' suDeployAndRun summary use case'
+@scale MaxWidth
+

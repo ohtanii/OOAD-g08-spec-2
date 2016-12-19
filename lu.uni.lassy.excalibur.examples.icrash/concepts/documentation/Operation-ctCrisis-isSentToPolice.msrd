@@ -1,0 +1,20 @@
+/*
+@author ???
+@date Tue Nov 15 04:56:41 MSK 2016
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.classes.ctCrisis.isSentToPolice
+//parameters
+@parameter
+icrash.concepts.primarytypes.classes.ctCrisis.isSentToPolice.AactPolice
+"the message destination actor"
+@endParameters
+
+@description "used to provide a given coordinator with current crisis information.
+ "
+//postFunctional descriptions
+@postF 
+" true iff the message ieSendACrisis is sent by the simulator to the input interface of the given police actor with the current crisis as parameter value."
+@endPostF

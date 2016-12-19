@@ -1,0 +1,27 @@
+/*
+@author ???
+@date Wed Nov 30 00:08:25 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeSetCrisisType hidden
+@description "goal is to define the type of a specific crisis."
+@parameter icrash.usecases.subfunctions.oeSetCrisisType.AdtCrisisID ""
+@parameter icrash.usecases.subfunctions.oeSetCrisisType.AetCrisisType ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

@@ -1,0 +1,27 @@
+/*
+@author ???
+@date Mon Nov 14 16:32:37 MSK 2016
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.classes.ctPolice.init
+//parameters
+@parameter
+icrash.concepts.primarytypes.classes.ctPolice.init.Aid
+"used to initialize the id field"
+@parameter
+icrash.concepts.primarytypes.classes.ctPolice.init.Alogin
+"used to initialize the login field"
+@parameter
+icrash.concepts.primarytypes.classes.ctPolice.init.Apwd
+"used to initialize the password field"
+@endParameters
+
+@description "
+used to initialize the current object as a new instance of the ctPolice type. "
+//postFunctional descriptions
+@postF 
+"true iff the system poststate includes the current object as a new ctPolice instance having its attributes equal to the ones provided as parameters. "
+@endPostF
+

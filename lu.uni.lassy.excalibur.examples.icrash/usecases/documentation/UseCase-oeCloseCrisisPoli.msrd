@@ -1,0 +1,27 @@
+/*
+@author ???
+@date Wed Dec 14 15:24:03 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeCloseCrisisPoli inappendix
+@description "the \msrcode{actPolice}'s goal is to declare a crisis as closed. "
+@parameter icrash.usecases.subfunctions.oeCloseCrisisPoli.AdtCrisisID ""
+@endParameters
+@protocolCondition
+" the iCrash system has been deployed.
+"
+@endProtocolConditions
+@preCondition
+" none
+"
+@endPreConditions
+@postCondition
+"
+the crisis is know by the system to be closed.
+"
+@postCondition
+"
+a message \msrcode{ieMessage(AMessage)} is sent to the \msrcode{actPolice} to inform him that his crisis is now considered as closed.
+"
+@endPostConditions

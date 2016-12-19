@@ -1,0 +1,27 @@
+/*
+@author ???
+@date Wed Nov 30 00:10:41 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeDeletePolice hidden
+@description "goal is to delete an existing police in the system's post state and environment's post state.
+"
+@parameter icrash.usecases.subfunctions.oeDeletePolice.AdtPoliceID ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

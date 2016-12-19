@@ -1,0 +1,16 @@
+/*
+@author ???
+@date Mon Nov 14 15:42:55 MSK 2016
+*/
+
+
+@@Operation
+icrash.environment.actPolice.init
+@description "
+used to initialize the current object as a new instance of the actPolice type. "
+//postFunctional descriptions
+@postF 
+"true iff the system poststate includes the current object as a new actPolice instance having its attributes equal to the ones provided as parameters. "
+@endPostF
+//example
+@example" "

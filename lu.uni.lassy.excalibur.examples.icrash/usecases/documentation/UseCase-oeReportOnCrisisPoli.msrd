@@ -1,0 +1,27 @@
+/*
+@author ???
+@date Wed Dec 14 15:24:28 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeReportOnCrisisPoli hidden
+@description "goal is to update the textual information available for a specific handled crisis."
+@parameter icrash.usecases.subfunctions.oeReportOnCrisisPoli.AdtCrisisID ""
+@parameter icrash.usecases.subfunctions.oeReportOnCrisisPoli.AdtComment ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

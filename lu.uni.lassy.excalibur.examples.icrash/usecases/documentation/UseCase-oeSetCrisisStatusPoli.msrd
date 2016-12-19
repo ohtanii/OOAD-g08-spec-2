@@ -1,0 +1,27 @@
+/*
+@author ???
+@date Wed Dec 14 15:24:29 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeSetCrisisStatusPoli hidden
+@description "goal is to define the handling status of a specific crisis."
+@parameter icrash.usecases.subfunctions.oeSetCrisisStatusPoli.AdtCrisisID ""
+@parameter icrash.usecases.subfunctions.oeSetCrisisStatusPoli.AetCrisisStatus ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

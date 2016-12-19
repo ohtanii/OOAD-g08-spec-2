@@ -1,0 +1,5 @@
+
+@@view uci-uciugSecurelyUseSystem
+@instance Use-Case usecases.uciugSecurelyUseSystem.uciugSecurelyUseSystem 
+@description "shows the use case diagram for the uciugSecurelyUseSystem user goal use case"
+@caption "uciugSecurelyUseSystem user goal use case"

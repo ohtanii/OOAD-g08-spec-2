@@ -1,0 +1,35 @@
+/*
+@author ???
+@date Mon Nov 14 15:42:53 MSK 2016
+*/
+
+
+@@Actor icrash.environment.actPolice
+@description "represents actor responsible of handling one or several crisis with huge type for the \msricrash system."
+@operation icrash.environment.actPolice.init
+" "
+@endOperations
+//input events
+@inputEvent
+icrash.environment.actPolice.inactPolice.ieSendACrisis
+""
+
+@endInputEvents
+//output events
+@outputEvent
+icrash.environment.actPolice.outactPolice.oeCloseCrisisPoli
+"sent to indicate that a crisis should be considered as closed."
+@outputEvent
+icrash.environment.actPolice.outactPolice.oeGetCrisisSetPoli
+"sent to request all the ctCrisis instances having a specific status."
+@outputEvent
+icrash.environment.actPolice.outactPolice.oeSetCrisisHandlerPoli
+"sent to declare himself as been the handler of a crisis having the specified id."
+@outputEvent
+icrash.environment.actPolice.outactPolice.oeReportOnCrisisPoli
+"sent to update the textual information available for a specific handled crisis."
+@outputEvent
+icrash.environment.actPolice.outactPolice.oeSetCrisisStatusPoli
+"sent to define the handling status of a specific crisis."
+
+@endOutputEvents

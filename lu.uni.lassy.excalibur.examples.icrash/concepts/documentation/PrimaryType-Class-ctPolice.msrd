@@ -1,0 +1,16 @@
+/*
+@author ???
+@date Mon Nov 14 16:16:39 MSK 2016
+*/
+
+
+@@Primary Type Class icrash.concepts.primarytypes.classes.ctPolice
+@description "used to model system's representation about the actors that have the responsibility to handle  huge crisis."
+@attribute
+icrash.concepts.primarytypes.classes.ctPolice.id
+"a unique identification information."
+@endAttributes
+@operation
+icrash.concepts.primarytypes.classes.ctPolice.init
+"used to initialize the current object as a new instance of the ctPolice type."
+@endOperations

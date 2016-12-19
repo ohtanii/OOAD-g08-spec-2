@@ -1,0 +1,19 @@
+@@Use Case Subfunction icrash.usecases.subfunctions.oeLogin 
+@description
+"goal is to request authorization to request access secured system operations.
+"
+@parameter icrash.usecases.subfunctions.oeLogin.AdtLogin "first information used to determine accessibility rights for the actual actor."
+@parameter icrash.usecases.subfunctions.oeLogin.AdtPassword "second information used to determine accessibility rights for the actual actor."
+@endParameters
+@protocolCondition
+" The system is started. The actor actAuthenticated asks the system to send him his password. 
+"
+@endProtocolConditions
+@preCondition
+" The actor is not already logged in. 
+"
+@endPreConditions
+@postCondition
+" if the authentication information is correct then the actor is known to be logged in.
+"
+@endPostConditions

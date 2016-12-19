@@ -1,0 +1,26 @@
+/*
+@author ???
+@date Wed Dec 14 15:24:23 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeGetCrisisSetPoli hidden
+@description "goal is to request all the ctCrisis instances having a specific status."
+@parameter icrash.usecases.subfunctions.oeGetCrisisSetPoli.AetCrisisStatus ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

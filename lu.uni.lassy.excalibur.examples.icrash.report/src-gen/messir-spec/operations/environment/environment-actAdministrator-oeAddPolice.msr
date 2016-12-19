@@ -1,0 +1,62 @@
+package icrash.operations.environment.actAdministrator.oeAddPolice {
+
+import lu.uni.lassy.messir.libraries.primitives
+
+import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
+import icrash.environment
+
+Operation Model {
+
+operation: actAdministrator.outactAdministrator.oeAddPolice(AdtPoliceID:dtPoliceID, AdtLogin:dtLogin, AdtPassword:dtPassword):ptBoolean
+{
+preP{
+  let TheSystem: ctState in
+  let TheActor:actAdministrator in
+  
+  self.rnActor.rnSystem = TheSystem
+  and self.rnActor = TheActor
+  
+/* PreP01 */
+  and TheSystem.vpStarted = true
+/* PreP02 */
+  and TheActor.rnctAuthenticated.vpIsLogged = true
+  }
+preF{ 
+  let TheSystem: ctState in
+  let TheActor:actAdministrator in
+  let ColctPolices:Bag(ctPolice) in
+  
+  self.rnActor.rnSystem = TheSystem
+  and self.rnActor = TheActor
+/* PreF01 */
+  and TheSystem.rnctPolice->select(id.eq(AdtPoliceID))
+      = ColctPolices
+  and ColctPolices->isEmpty() = true
+   }
+postF{
+  let TheSystem: ctState in
+  let TheactPolice:actPolice in
+  let ThectPolice:ctPolice in
+  self.rnActor.rnSystem = TheSystem
+  and self.rnActor = TheActor
+/* PostF01 */
+  TheactPolice.init()
+/* PostF02 */
+  and ThectPolice.init(AdtPoliceID,AdtLogin,AdtPassword)
+
+/* PostF03 */
+  and TheactPolice@post.rnctPolice = ThectPolice
+  
+/* PostF04 */  
+  and ThectPolice@post.rnactAuthenticated = TheactPolice
+   
+/* PostF05 */  
+  and TheActor.rnInterfaceIN^iePoliceAdded()
+}
+postP{true}
+
+prolog{"src/Operations/Environment/OUT/outactAdministrator-oeAddPolice.pl"}
+}
+}
+}

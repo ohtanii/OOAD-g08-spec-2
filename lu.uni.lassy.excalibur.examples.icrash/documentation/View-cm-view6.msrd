@@ -1,0 +1,8 @@
+
+@@view cm-pt-dt-lv-02-dtGPSLocation
+@model Concept
+@level Local
+@sublevel Primary Datatype
+@number 6
+@description "shows a local view on the GPSLocation primary types datatype types."
+@caption "local view of primary types datatype types - cm-pt-dt-lv-02-dtGPSLocation"

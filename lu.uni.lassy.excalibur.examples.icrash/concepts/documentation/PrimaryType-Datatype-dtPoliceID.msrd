@@ -1,0 +1,11 @@
+/*
+@author ???
+@date Mon Nov 14 16:11:52 MSK 2016
+*/
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtPoliceID
+@description "A string used to identify polices."
+@operation
+icrash.concepts.primarytypes.datatypes.dtPoliceID.is
+"used to determine which strings are considered as valid polices identifiers."
+@endOperations

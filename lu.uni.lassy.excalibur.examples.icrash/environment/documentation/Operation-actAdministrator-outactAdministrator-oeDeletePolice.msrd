@@ -1,0 +1,44 @@
+/*
+@author ???
+@date Tue Nov 15 05:04:13 MSK 2016
+*/
+
+
+@@Operation
+icrash.environment.actAdministrator.outactAdministrator.oeDeletePolice
+//parameters
+@parameter
+icrash.environment.actAdministrator.outactAdministrator.oeDeletePolice.AdtPoliceID
+"used for ctPolice instance retrieval"
+@endParameters
+
+@description
+"sent to delete an existing police in the system's post state and environment's post state."
+
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor logged previously and did not log out ! (i.e. the associated ctAdministrator instance is considered logged)"
+@endPreP
+
+//preFunctional descriptions
+@preF
+" it is supposed that there exist one ctPolice instance with the same \msrcode{id} attribute than the one the administrator wants to create."
+@endPreF
+
+//postFunctional descriptions
+@postF 
+" the ctPolice class instance having the required id do not belong anymore to the post state as well as is related actPolice actor instance."
+@postF
+"the administrator actor is informed about the satisfaction of its request."
+
+@endPostF
+
+//postProtocol descriptions
+@postP 
+" none "
+@endPostP
+
+//example
+@example" "

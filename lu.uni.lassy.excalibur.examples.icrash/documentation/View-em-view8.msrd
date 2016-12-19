@@ -1,0 +1,14 @@
+/*
+@author ???
+@date Wed Nov 30 10:55:17 MSK 2016
+*/
+
+
+@@view em-lv-06-partd-police
+@model Environment
+@level Local
+@number 8
+@description "shows the local view for the police actor and interfaces"
+@caption "police actor environment model view"
+//@orientation Landscape
+@scale MaxWidth 

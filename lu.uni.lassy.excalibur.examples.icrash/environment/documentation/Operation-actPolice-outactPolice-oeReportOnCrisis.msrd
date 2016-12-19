@@ -1,0 +1,37 @@
+/*
+@author ???
+@date Mon Nov 14 15:43:01 MSK 2016
+*/
+
+
+@@Operation
+icrash.environment.actPolice.outactPolice.oeReportOnCrisisPoli
+//parameters
+@parameter
+icrash.environment.actPolice.outactPolice.oeReportOnCrisisPoli.AdtCrisisID
+"the identification information used to determine the crisis to report on"
+@parameter
+icrash.environment.actPolice.outactPolice.oeReportOnCrisisPoli.AdtComment
+"the textual information commenting the crisis"
+@endParameters
+
+@description "sent to update the textual information available for a specific handled crisis.
+ "
+//preProtocol descriptions
+@preP
+"the system is started "
+@preP
+"the actor logged previously and did not log out ! (i.e. the associated ctPolice instance is considered logged)"
+@endPreP
+//preFunctional descriptions
+@preF
+"it is supposed that there exist one crisis in the pre state having the given id. "
+@endPreF
+//postFunctional descriptions
+@postF 
+"the comment attribute of the crisis instance having the given id is replaced by the given one and the requesting actor is notified of this update. "
+@endPostF
+//postProtocol descriptions
+@postP 
+" none"
+@endPostP
